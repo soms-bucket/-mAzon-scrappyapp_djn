@@ -7,7 +7,7 @@ The scrapping project app Build on <strong>Django</strong>, with a simple web se
 <ul>
   
 <li>latest Python<strong>[**must be >3.6 ]</strong><br>
-<li>Make sure that You have <strong>Json and sqlite3</strong>
+<li>Make sure that You have <strong>sqlite3</strong>
 
 </ul>
 
