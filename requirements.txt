@@ -6,3 +6,5 @@ print(lib_1)
 lib_3=os.popen("pip install bs4").read()
 print(lib_3)
 
+lib_7=os.popen("pip install django").read()
+print(lib_7)
