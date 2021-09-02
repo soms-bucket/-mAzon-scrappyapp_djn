@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Django Scraping</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+        }
+
+        .main {
+            border: 3px solid #fff;
+            padding: 20px;
+        }
+        .toplst{
+            width: 40%;
+            float: left;
+            padding: 20px;
+        }
+
+
+
+        
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        input[type='text'] {
+            width: 30%;
+            margin-bottom: 10px;
+            padding: 15px;
+            border: 2px solid black;
+        }
+
+        input[type='submit'] {
+            width: 20%;
+            padding: 12px;
+            background: black;
+            color: white;
+            text-transform: uppercase;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="main">
+        <div class="toplst">
+        <h3>{{ res.top_1 }}</h3>
+        <h3>{{ res.top_2 }}</h3>
+        <h3>{{ res.top_3 }}</h3>
+        <h3>{{ res.top_4 }}</h3>
+        <h3>{{ res.top_5 }}</h3>   </div> 
+
+
+     <div class="toplst">
+    <h1 >Find the Product</h1>
+    <form method="GET">
+        <div>
+            <label for="product"></label>
+            <input type="text" id="product" placeholder="Product..." value="{{ request.GET.product }}" name="product"/>
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+ 
+
+
+    
+  
+    {% if result %}
+
+        <h3>Website: {{ result.Website }}</h3><br>
+        <h3>Product Link: {{ result.Product_Link }}</h3><br>
+        <h3>Product Name: {{ result.Product_Name }}</h3><br>
+        <h3>Product Brand: {{ result.Product_Brand }}</h3><br>
+        <h3>Product Rating: {{ result.Product_Rating }}</h3><br>
+        <h3>Save Price: {{ result.Product_Save_Price }}</h3><br>
+        <h3>Current Price: {{ result.Price }}</h3><br>
+        <h3>Original Price: {{ result.MRP }}</h3><br>
+        <h3>Product Image Link: {{ result.Primary_Image_Link }}</h3><br><br>
+    {% endif %}
+
+    {% if result_1 %}
+
+        <h3>*NOTE: {{ result_1.not_f }}</h3><br>
+
+    {% endif %}
+
+</div>
+
+
+
+   
+</div>
+</body>
+</html>
