@@ -1,0 +1,8 @@
+import os
+
+lib_1=os.popen("pip install requests").read()
+print(lib_1)
+
+lib_3=os.popen("pip install bs4").read()
+print(lib_3)
+
