@@ -1,9 +1,8 @@
-# Django
 # amAzon-scrappyapp_djn
 The scrapping project app Build on <strong>Django</strong>, with a simple web search query frm local Databas🎫🎱
 
-
-# Requirements
+# Django
+## Requirements
 <ul>
   
 <li>latest Python<strong>[**must be >3.6 ]</strong><br>
