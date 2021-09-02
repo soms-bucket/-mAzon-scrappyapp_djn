@@ -1,2 +1,2 @@
-# -mAzon-scrappyapp_djn
+# amAzon-scrappyapp_djn
 The scrapping project app , with a simple web search query frm local Database
