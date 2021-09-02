@@ -1,5 +1,6 @@
 # amAzon-scrappyapp_djn
-The scrapping project app , with a simple web search query frm local Databas🎫🎱
+The scrapping project app Build on <strong>Django</strong>, with a simple web search query frm local Databas🎫🎱
+
 
 # Requirements
 <ul>
