@@ -1,4 +1,4 @@
-#Django
+# Django
 # amAzon-scrappyapp_djn
 The scrapping project app Build on <strong>Django</strong>, with a simple web search query frm local Databas🎫🎱
 
