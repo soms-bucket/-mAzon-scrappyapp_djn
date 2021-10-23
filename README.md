@@ -15,7 +15,7 @@ The scrapping project app Build on <strong>Django</strong>, with a simple web se
 <ul>
 <li>Go to <strong>amAzon-scrappyapp_djn-main</strong> folder<br>
 <li>open command-prompt(cmd)<strong>[**in same folder location]</strong><br>
-  <li> <pre>python requirments.txt </pre>
+  <li> <pre>python requirements.txt </pre>
   <li><pre>python manage.py runserver</pre>
     
    <li>Now goto your preferable Browser
