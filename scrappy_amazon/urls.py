@@ -21,3 +21,4 @@ urlpatterns = [
     path('', include('nody.urls')),
 
 ]
+
